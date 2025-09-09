@@ -1,0 +1,166 @@
+body{
+    /* background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%); */
+   background-color: black;
+}
+
+.down-img{
+    z-index: 1;
+}
+#grad2 {
+  width: 852px;
+  height: 852px;
+  background-image: url(assets/Dark\ Gradient\ 12.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+}
+  
+
+.montserrat-i {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0px;
+  font-size: 16px;
+}
+.para1{
+    width: 360px;
+}
+.iphone{
+    z-index: 1;
+}
+.div-1-heading {
+    /* font-family:'Courier New', Courier, monospace ; */
+    letter-spacing:0px;
+    font-size: 59px;
+    background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder; /* optional */
+  }
+
+  .num{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .sec-row{
+    border: 2px solid  #34213480;
+;
+    border-radius: 27px;
+    background-color: rgba(52, 33, 52, 0.5);
+    margin-top: 22px;
+  }
+  .h2{
+font-size: 25px;
+font-weight: 400;
+  }
+  .sec-cl{
+    border-right:2px solid #34213480 ; 
+  }
+  
+   .third-row{
+    margin-top: 150px;
+  }
+/* .six-row{
+  background-image: url(assets/Frame\ 79.png);
+  background-repeat: repeat-y;
+  background-size: 500px;
+  
+} */
+ .six-row {
+  margin-left: 30px;
+  width: 1200px;
+  height: 879px;
+  background-image: url('assets/Frame 80.png');
+  background-repeat: repeat-y;
+  background-size: 575px ;         /* Width of image */
+  background-position: right top; 
+ /* Only on the right side */
+  background-attachment: scroll;
+}
+.sixth-row-h1{
+  padding-top: 210px;
+ padding-right: 740px;
+ line-height: 64px;
+ font-weight: bolder;
+ font-size: 56px;
+ margin-left: 30px;
+}
+.six-row-p{
+  display: none;
+}
+#unsha321{
+  width: 0px;
+}
+.unsha123{
+  width: 0px;
+}
+body{
+  overflow-x: hidden;
+}
+
+  @media only screen and ( max-width : 700px) {
+    #grad2 {
+  width: 852px;
+  height: 852px;
+  background-image: url(assets/Dark\ Gradient\ 12.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+top: 300px;
+left: -150px;
+}
+  .sec-cl{
+    border-bottom:2px solid #34213480 ; 
+  }
+  .third-col{
+    border-bottom-left-radius: 25px;
+  }
+  .second-col{
+    border-top-right-radius: 25px;
+  }
+ .six-row {
+  background-image: url('assets/Frame 80.png');
+background-size: 0px;
+}
+.sixth-row-h1{
+  padding-top: 40px;
+  padding: 0px;
+}
+.six-row-p{
+  display: block;
+
+}
+.six-row{
+  width: 450px;
+  height: 1200px;
+}
+#unsha321{
+  width: 100%;
+}
+.unsha123{
+  width: auto;
+  margin-left: 200px;
+}
+.seventh-row-h1{
+ padding-top: 200px;
+}
+.eidth-row{
+  display: hidden;
+}
+.eight-last-row{
+  display: none;
+}
+.nine-row{
+  display:none ;
+}
+  }
