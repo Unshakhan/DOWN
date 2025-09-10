@@ -15,8 +15,60 @@ body{
   position: absolute;
   top: 0px;
 }
-  
+.container-num-2 {
+  z-index: 1;
+}
 
+@media only screen and (min-width: 992px) {
+  .aqua{
+  margin-top:-300px ;
+}
+}
+#grad3{
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 300px;
+  right: -390px;
+  z-index: 0;
+}
+ #grad5 ,#grad9 {
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -390px;
+  z-index: 0;
+}
+
+#grad6 ,#grad8 , #grad4 {
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+    transform: rotate(180deg); 
+ left: -390px;
+  z-index: 0;
+}
+
+
+#grad7 {
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Dark\ Gradient\ 11.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -390px;
+  z-index: 0;
+}
 .montserrat-i {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -38,6 +90,22 @@ body{
 .iphone{
     z-index: 1;
 }
+.group2{
+position: relative;
+left:-50px;
+top: -400px;
+
+}
+ .group3{
+position: relative;
+right:-220px;
+top: -500px;
+}
+.group4{
+position:relative;
+right:-180px;
+top: -390px;
+} 
 .div-1-heading {
     /* font-family:'Courier New', Courier, monospace ; */
     letter-spacing:0px;
@@ -107,6 +175,59 @@ font-weight: 400;
 body{
   overflow-x: hidden;
 }
+/* Custom toggler with gradient-colored lines and transparent background */
+.custom-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  position: relative;
+  background: none;
+  border: none;
+  display: inline-block;
+}
+
+/* Create 3 lines using pseudo-elements */
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after,
+.custom-toggler .navbar-toggler-icon div {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 2px;
+  background: linear-gradient(to right, #A734BD,#FF006A ); /* 🌈 Gradient color */
+}
+
+
+@media only screen and (max-width: 576px) {
+.group4, .group3, .group2{
+display: none;
+}
+.aqua{
+  margin-top: 40px;
+  text-align: center;
+}
+.aqua1{
+  margin-left: 50px;
+}
+.b, .b1{
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+.endimg{
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+}
 
   @media only screen and ( max-width : 700px) {
     #grad2 {
@@ -119,6 +240,68 @@ body{
 top: 300px;
 left: -150px;
 }
+
+#grad3{
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+  /* position: absolute; */
+  top: 900px;
+  right: -390px;
+  z-index: 0;
+}
+#grad6{
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 4700px;
+    transform: rotate(180deg); 
+ left: -390px;
+  z-index: 0;
+}
+#grad4{
+    width: 1052px;
+  height: 952px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+    transform: rotate(180deg); 
+    top: 2400px;
+ left: -520px;
+  z-index: 0;
+}
+#grad5{
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Ellipse\ 43.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -390px;
+  top: 3700px;
+  z-index: 0;
+}
+#grad7{
+    width: 852px;
+  height: 852px;
+    background-image: url(assets/Dark\ Gradient\ 11.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -390px;
+  top: 5300px;
+  z-index: 0;
+}
+.start-img{
+margin: auto ;
+}
+
   .sec-cl{
     border-bottom:2px solid #34213480 ; 
   }
@@ -133,7 +316,8 @@ left: -150px;
 background-size: 0px;
 }
 .sixth-row-h1{
-  padding-top: 40px;
+  margin-top: 80px;
+  padding-top: 80px;
   padding: 0px;
 }
 .six-row-p{
